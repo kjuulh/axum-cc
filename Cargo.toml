@@ -12,7 +12,7 @@ edition = "2021"
 
 
 [dependencies]
-axum = { version = "0.6", default-features = false }
+axum = { git = "https://github.com/tokio-rs/axum", branch = "main", default-features = false }
 futures-core = "0.3"
 pin-project-lite = "0.2"
-tower = { version = "0.4", default-features = false }
+tower = { version = "0.4.13", default-features = false }
